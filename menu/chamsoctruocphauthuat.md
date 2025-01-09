@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Chăm sóc trước phẫu thuật
-permalink: /chamsocsauphauthuat
+permalink: /chamsoctruocphauthuat
 ---
 
 ### Getting Started
