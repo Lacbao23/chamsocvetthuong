@@ -3,4 +3,5 @@
 source "https://rubygems.org"
 gemspec
 gem "jekyll-theme-yat"
+gem "jekyll-remote-theme", group: :jekyll_plugins
 
