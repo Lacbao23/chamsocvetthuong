@@ -1,6 +1,6 @@
 # Site settings
-title: Lokmont
-description: Lokmont is a responsive simple theme for Jekyll.
+title: Cham soc vet thuong
+description: Trang cung cap thong tin cham soc vet thuong cho benh nhan.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lokmont-jekyll.netlify.com/" # the base hostname & protocol for your site, e.g. http://example.com
 
