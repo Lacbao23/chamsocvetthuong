@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Giới thiệu về chăm sóc vết thương cho bệnh nhân!
-permalink: /about
+title: Chỉ định và chống chỉ định
+permalink: /chidinhvachongchidinh
 ---
 
 ### Getting Started
