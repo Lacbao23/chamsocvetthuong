@@ -1,177 +1,211 @@
-Lokmont - Simple & Minimal Theme for Jekyll
-=======
-<p>Lokmont is a simple and completely responsive theme for Jekyll, suitable for any kind of bloggers and writers. It was created to be minimal, clean and at the same time functional.</p>
+<div align="center">
+  <br>
 
-Table of Contents
------------------
+  <a href="https://github.com/jeffreytse/jekyll-theme-yat">
+    <img alt="jekyll-theme-yat →~ jekyll" src="https://user-images.githubusercontent.com/9413601/106478481-346fdf00-64e4-11eb-9385-1ab5329c3234.png" width="600">
+  </a>
 
-*   [Demo](#demo)
-*   [Features](#features)
-*   [Deployment](#deployment)
-*   [Posts](#posts)
-*   [Other Authors](#authors)
-*   [Disqus Comments](#disqus)
-*   [Google Analytics](#analytics)
-*   [Update favicon](#favicon)
-*   [Credits](#credits)
-*   [License](#license)
-*   [Donate](#donate)
+  <h1>JEKYLL YAT THEME</h1>
 
-* * *
+</div>
 
-### Demo
+<h4 align="center">
+  <a href="https://jekyllrb.com/" target="_blank"><code>Jekyll</code></a> theme for elegant writers.
+</h4>
 
-Check the theme in action [Demo](https://lokmont-jekyll.netlify.com/)
+<p align="center">
+  <a href="https://jeffreytse.github.io/jekyll-theme-yat">
+    <img src="https://github.com/jeffreytse/jekyll-theme-yat/workflows/Github%20Pages/badge.svg"
+      alt="Github Pages" />
+  </a>
 
-![Main page preview](https://github.com/artemsheludko/lokmont/blob/master/images/home-page.jpg?raw=true)
+  <a href="https://badge.fury.io/rb/jekyll-theme-yat">
+    <img src="https://badge.fury.io/rb/jekyll-theme-yat.svg"
+      alt="Gem Version" />
+  </a>
 
-The post page would look like this:
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg"
+      alt="License: MIT" />
+  </a>
 
-![Post page preview](https://github.com/artemsheludko/lokmont/blob/master/images/post-page.jpg?raw=true)
+  <a href="https://liberapay.com/jeffreytse">
+    <img src="https://img.shields.io/liberapay/goal/jeffreytse.svg?logo=liberapay"
+      alt="Donate (Liberapay)" />
+  </a>
 
-* * *
+  <a href="https://patreon.com/jeffreytse">
+    <img src="https://img.shields.io/badge/support-patreon-F96854.svg?style=flat-square"
+      alt="Donate (Patreon)" />
+  </a>
 
-### Features
+  <a href="https://ko-fi.com/jeffreytse">
+  <img height="20" src="https://www.ko-fi.com/img/githubbutton_sm.svg"
+  alt="Donate (Ko-fi)" />
+  </a>
+</p>
 
-* 100% responsive and clean theme
-* Optimized for mobile devices
-* Minimal design
-* Valid HTML5 code
-* Included site search
-* Contact Page
-* Post sharing
-* Supports Mail Chimp Subscriber
-* Supports Disqus Comments
-* Social Media Profiles
-* Formspree form
-* Font Awesome fonts
-* Google Fonts
+<div align="center">
+  <sub>Built with ❤︎ by
+  <a href="https://jeffreytse.net">jeffreytse</a> and
+  <a href="https://github.com/jeffreytse/jekyll-theme-yat/graphs/contributors">contributors </a>
+  </sub>
+</div>
 
-* * *
+<br>
 
-### Deployment
+Hey, nice to meet you, you found this [Jekyll][jekyll] theme. Here the
+_YAT (Yet Another Theme)_ is a modern responsive theme. It's quite
+clear, clean and neat for writers and posts. **If you are an elegant
+writer and focus on content, don't miss it.**
 
-To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` or `bundle exec jekyll serve` to start the Jekyll server.
+<p align="center">
+Like this elegant theme? You can give it a star or sponsor me!<br>
+I will respect your crucial support and say THANK YOU!
+</p>
 
-I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
+<p align="center">
 
-* * *
+  <img src="https://user-images.githubusercontent.com/9413601/91842897-6a840b00-ec87-11ea-95ca-52abcc1ac063.png" alt="demo-screenshot" width="100%"/>
 
-### Posts
+</p>
 
-To create a new post, you can create a new markdown file inside the _posts directory by following the [recommended file structure](https://jekyllrb.com/docs/posts/#creating-post-files).
+<h4 align="center">BANNER</h4>
 
-```sh
-  ---
-  layout: post
-  title: 10 Best books of all time
-  date: 2017-10-27 18:09:50 +0300
-  img: 17.jpg
-  tags: [Books, Hobby]
-  author: Natali_Braxton # Optional
-  ---
-```        
+<p align="center">
 
-You can set the tags, author and the post image.
+  <img src="https://user-images.githubusercontent.com/9413601/123897812-ae729a00-d996-11eb-96b8-b76ba926f555.gif" alt="demo-screenshot" width="100%"/>
 
-Add post images to **/images/pages/** directory.
+</p>
 
-For tags, try to not add space between two words, for example, `Ruby on Rails`, could be something like (`ruby-on-rails`, `Ruby_on_Rails`, or `Ruby-on-Rails`).
+## Features
 
-* * *
+- Support beautiful **Night Mode**.
+- Modern responsive web design.
+- Full layouts `home`, `post`, `tags`, `archive` and `about`.
+- Uses font awesome 5 for icons.
+- Beautiful page banner with image and video.
+- Beautiful Syntax Highlight using [highlight.js][highlight-js].
+- Beautiful image gallery previewer using [PhotoSwipe 5][photoswipe-5].
+- RSS support using [Jekyll Feed][jekyll-feed] gem.
+- Optimized for search engines using [Jekyll Seo Tag][jekyll-seo-tag] gem.
+- Sitemap support using [Jekyll Sitemap][jekyll-sitemap] gem.
+- Complex and flexible table support using [Jekyll Spaceship][jekyll-spaceship] gem.
+- MathJAX and LaTeX optional support using [Jekyll Spaceship][jekyll-spaceship] gem.
+- Media (Youtube, Spotify, etc.) support using [Jekyll Spaceship][jekyll-spaceship] gem.
+- Diagram (PlantUML, Mermaid) support using [Jekyll Spaceship][jekyll-spaceship] gem.
+- Google Translation support.
+- New post tag support.
+- Pin post tag support.
 
-### Authors
+Also, visit the [Live Demo][yat-live-demo] site for the theme.
 
-You can add other authors for your posts. In the beginning, create the author in the file `_config.yml`
+## Installation
 
-**For example:**
+There are three ways to install:
 
-```sh
-  # Other Authors - here you can add Other authors. For example Natali_Braxton
-  authors:
-    Natali_Braxton:
-      author-name: Natali Braxton
-      author-image: 111.jpg
-      about-author: My name is Natali Braxton. I love walking, I play the guitar in my spare time. And also write articles about different technologies.
-      author-email: natali.example@gmail.com
-      author-twitter: https://twitter.com/
-      author-facebook: https://twitter.com/
-      author-instagram: https://www.instagram.com/
-      author-pinterest: https://pinterest.com/
+- As a [gem-based theme](https://jekyllrb.com/docs/themes/#understanding-gem-based-themes).
+- As a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/) (GitHub Pages compatible).
+- Forking/directly copying all of the theme files into your project.
+
+### Gem-based Theme Method
+
+Add this line to your Jekyll site's `Gemfile`:
+
+```ruby
+gem "jekyll-theme-yat"
 ```
 
-Then add the author in a post. Save and you are done.
+And add this line to your Jekyll site's `_config.yml`:
 
-```sh
-  ---
-  layout: post
-  title: 10 Best books of all time
-  date: 2017-10-27 18:09:50 +0300
-  img: 17.jpg
-  tags: [Books, Hobby]
-  author: Natali_Braxton
-  ---
+```yaml
+theme: jekyll-theme-yat
 ```
 
-* * *
+And then execute:
 
-### Disqus
+```bash
+$ bundle
+```
 
-Lokmont Theme comes with Disqus comments enabled.
+Or install it yourself as:
 
-Open `_config.yml` file, and change the `mr-brown` value on line 52 with your [Disqus account shortname](https://help.disqus.com/customer/portal/articles/466208).
+```bash
+$ gem install jekyll-theme-yat
+```
 
-```sh
-  # Comment Section (Disqus)
-  disqus-identifier: mr-brown # Add your shortname for Disqus Comment. For example mr-brown
-```     
+### Remote Theme Method with Jekyll Remote Theme Plugin
 
-That’s all you need to setup Disqus from the theme side. If you get any issue regarding that comments are unable to load. First, make sure you have [registered your website with Disqus (Step 1)](https://help.disqus.com/customer/portal/articles/466182-publisher-quick-start-guide).
+Remote themes are similar to Gem-based themes, but do not require `Gemfile` changes or whitelisting making them ideal for sites hosted with GitHub Pages.
 
-And also check [Disqus troubleshooting guide](https://help.disqus.com/customer/portal/articles/472007-i-m-receiving-the-message-%22we-were-unable-to-load-disqus-%22) if you still have issues.
+To install:
 
-* * *
+Add this line to your Jekyll site's `Gemfile`:
 
-### Analytics
+```ruby
+gem "jekyll-remote-theme", group: :jekyll_plugins
+```
 
-To integrate Google Analytics, open `_config.yml`, and add your Google Analytics identifier.
-```sh
-  # Google Analytics
-  google-analytics: # Add your identifier. For example UA-99631805-1
-```     
+And add this line to your Jekyll site's `_config.yml`:
 
-* * *
+```yaml
+# theme: owner/name --> Don't forget to remove/comment the gem-based theme option
+remote_theme: "jeffreytse/jekyll-theme-yat"
 
-### Favicon
+# Add the following to activate the plugin
+plugins:
+  - jekyll-remote-theme
+```
 
-You can find the current favicon (favicon.ico) inside the theme root directory, just replace it with your new favicon.
+And then execute:
 
-* * *
+```bash
+$ bundle
+```
 
-### Credits
+### Forking/Cloning the project
 
-We have used the following scripts, fonts or other files as listed.
+You need to update the option of github workflow file `.github/workflows/build-jekyll.yml`, especially to ensure the value of `jekyll_baseurl` is correct.
 
-*   [Google Fonts](https://fonts.google.com/) (Dancing+Script, PT+Serif, Lato, Roboto).
-*   [Font Awesome](https://fontawesome.com/v4.7.0/)
-*   [FitVids.js](http://fitvidsjs.com/)
-*   [jQuery-viewport-checker](https://github.com/dirkgroenen/jQuery-viewport-checker)
-*   [Zoom](https://github.com/fat/zoom.js)
-*   [Transition](http://getbootstrap.com/javascript/#transitions)
-*   [jQuery.com](https://jquery.com/)
-*   [Simple-Jekyll-Search](https://github.com/christian-fei/Simple-Jekyll-Search)
-*   Preview Images [unsplash.com](https://unsplash.com/), [pexels.com](https://www.pexels.com/)
+### GitHub Pages without limitation
 
-* * *
+GitHub Pages runs in `safe` mode and only allows [a set of whitelisted plugins/themes](https://pages.github.com/versions/). **In other words, the third-party gems will not work normally**.
 
-### License
+To use the third-party gem in GitHub Pages without limitation:
 
-MIT License
+Here is a GitHub Action named [jekyll-deploy-action](https://github.com/jeffreytse/jekyll-deploy-action) for Jekyll site deployment conveniently. 👍
 
-* * *
+## Usage
 
-### Donate
+Add or update your available layouts, includes, sass and/or assets.
 
-<p>If you want to show your appreciation, buy me one <a href="https://www.buymeacoffee.com/artemsheludko" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a> ! Every five cups of coffee and a new theme for Jekyll is ready 😋</p>
-<p>Either way, your support is a way to thank me ❤️</p>
-<p align="center"><b>Thank you for your support!</b></p>
+## Development
+
+To set up your environment to develop this theme, run `bundle install`.
+
+Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+
+When your theme is released, only the files in `_data`, `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
+To add a custom directory to your theme-gem, please edit the regexp in `jekyll-theme-yat.gemspec` accordingly.
+
+## Contributing
+
+Issues and Pull Requests are greatly appreciated. If you've never contributed to an open source project before I'm more than happy to walk you through how to create a pull request.
+
+You can start by [opening an issue](https://github.com/jeffreytse/jekyll-theme-yat/issues/new) describing the problem that you're looking to resolve and we'll go from there.
+
+## License
+
+This theme is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php) © JeffreyTse.
+
+<!-- External links -->
+
+[jekyll]: https://jekyllrb.com/
+[yat-git-repo]: https://github.com/jeffreytse/jekyll-theme-yat/
+[yat-live-demo]: https://jeffreytse.github.io/jekyll-theme-yat/
+[jekyll-spaceship]: https://github.com/jeffreytse/jekyll-spaceship
+[jekyll-seo-tag]: https://github.com/jekyll/jekyll-seo-tag
+[jekyll-sitemap]: https://github.com/jekyll/jekyll-sitemap
+[jekyll-feed]: https://github.com/jekyll/jekyll-feed
+[highlight-js]: https://github.com/highlightjs/highlight.js
+[photoswipe-5]: https://photoswipe.com/
